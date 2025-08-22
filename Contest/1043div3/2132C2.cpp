@@ -30,7 +30,7 @@ int main()
 
         vector<ll> cnt(M, 0);
         cnt[0] = n;
-        ll d = n;`
+        ll d = n;
         ll ans = n * c[0];
 
         for (int i = 0; i < M - 1 && d > k; i++)
